@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "POCRPG-tvOS.app"
-               BlueprintName = "POCRPG-tvOS"
-               ReferencedContainer = "container:POCRPG.xcodeproj">
+               BuildableName = "pocrpg-tvOS.app"
+               BlueprintName = "pocrpg-tvOS"
+               ReferencedContainer = "container:pocrpg.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "POCRPG-tvOSTests.xctest"
-               BlueprintName = "POCRPG-tvOSTests"
-               ReferencedContainer = "container:POCRPG.xcodeproj">
+               BuildableName = "pocrpg-tvOSTests.xctest"
+               BlueprintName = "pocrpg-tvOSTests"
+               ReferencedContainer = "container:pocrpg.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "POCRPG-tvOS.app"
-            BlueprintName = "POCRPG-tvOS"
-            ReferencedContainer = "container:POCRPG.xcodeproj">
+            BuildableName = "pocrpg-tvOS.app"
+            BlueprintName = "pocrpg-tvOS"
+            ReferencedContainer = "container:pocrpg.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "POCRPG-tvOS.app"
-            BlueprintName = "POCRPG-tvOS"
-            ReferencedContainer = "container:POCRPG.xcodeproj">
+            BuildableName = "pocrpg-tvOS.app"
+            BlueprintName = "pocrpg-tvOS"
+            ReferencedContainer = "container:pocrpg.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* POCRPGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* POCRPGTests.m */; };
+		00E356F31AD99517003FC87E /* pocrpgTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* pocrpgTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,11 +15,11 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* POCRPGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* POCRPGTests.m */; };
-		492E78EEBB33D975DA57C57F /* libPods-POCRPG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7F82C09DBB7C0CF68063E4 /* libPods-POCRPG.a */; };
-		686EA211B76E57E6DB6CB288 /* libPods-POCRPG-POCRPGTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 810D6AB86E4766ADD18497A9 /* libPods-POCRPG-POCRPGTests.a */; };
-		81C02FDA7FB582480DB39527 /* libPods-POCRPG-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7333A35B60B2E8EF52D9FB5 /* libPods-POCRPG-tvOSTests.a */; };
-		E3E29E065B101E2D7B92545E /* libPods-POCRPG-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBF22F6B50E7BCE30E2FC68 /* libPods-POCRPG-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* pocrpgTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* pocrpgTests.m */; };
+		492E78EEBB33D975DA57C57F /* libPods-pocrpg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7F82C09DBB7C0CF68063E4 /* libPods-pocrpg.a */; };
+		686EA211B76E57E6DB6CB288 /* libPods-pocrpg-pocrpgTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 810D6AB86E4766ADD18497A9 /* libPods-pocrpg-pocrpgTests.a */; };
+		81C02FDA7FB582480DB39527 /* libPods-pocrpg-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7333A35B60B2E8EF52D9FB5 /* libPods-pocrpg-tvOSTests.a */; };
+		E3E29E065B101E2D7B92545E /* libPods-pocrpg-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBF22F6B50E7BCE30E2FC68 /* libPods-pocrpg-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,43 +28,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = POCRPG;
+			remoteInfo = pocrpg;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "POCRPG-tvOS";
+			remoteInfo = "pocrpg-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* POCRPGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCRPGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* pocrpgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pocrpgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* POCRPGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POCRPGTests.m; sourceTree = "<group>"; };
-		09067172A32C76CAF61C61EF /* Pods-POCRPG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCRPG.release.xcconfig"; path = "Target Support Files/Pods-POCRPG/Pods-POCRPG.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* POCRPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCRPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = POCRPG/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = POCRPG/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* pocrpgTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pocrpgTests.m; sourceTree = "<group>"; };
+		09067172A32C76CAF61C61EF /* Pods-pocrpg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocrpg.release.xcconfig"; path = "Target Support Files/Pods-pocrpg/Pods-pocrpg.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* pocrpg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pocrpg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = pocrpg/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = pocrpg/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = POCRPG/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = POCRPG/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = POCRPG/main.m; sourceTree = "<group>"; };
-		1C9945AC507F573416018BC2 /* Pods-POCRPG-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCRPG-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-POCRPG-tvOSTests/Pods-POCRPG-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* POCRPG-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POCRPG-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* POCRPG-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POCRPG-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65D31FA7FFC385F96AB27AC7 /* Pods-POCRPG-POCRPGTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCRPG-POCRPGTests.release.xcconfig"; path = "Target Support Files/Pods-POCRPG-POCRPGTests/Pods-POCRPG-POCRPGTests.release.xcconfig"; sourceTree = "<group>"; };
-		73FD2416A7452367F89B7AEC /* Pods-POCRPG-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCRPG-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-POCRPG-tvOSTests/Pods-POCRPG-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		784C834B58F359B701CEC1C2 /* Pods-POCRPG-POCRPGTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCRPG-POCRPGTests.debug.xcconfig"; path = "Target Support Files/Pods-POCRPG-POCRPGTests/Pods-POCRPG-POCRPGTests.debug.xcconfig"; sourceTree = "<group>"; };
-		810D6AB86E4766ADD18497A9 /* libPods-POCRPG-POCRPGTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-POCRPG-POCRPGTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7333A35B60B2E8EF52D9FB5 /* libPods-POCRPG-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-POCRPG-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEBF22F6B50E7BCE30E2FC68 /* libPods-POCRPG-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-POCRPG-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB7F82C09DBB7C0CF68063E4 /* libPods-POCRPG.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-POCRPG.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C18B44CA8C8CFE2E53EEDAEF /* Pods-POCRPG-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCRPG-tvOS.release.xcconfig"; path = "Target Support Files/Pods-POCRPG-tvOS/Pods-POCRPG-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		D29A0A4A388F20ED57F2A729 /* Pods-POCRPG-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCRPG-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-POCRPG-tvOS/Pods-POCRPG-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		E06E87D49ECF8746B4438AAB /* Pods-POCRPG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POCRPG.debug.xcconfig"; path = "Target Support Files/Pods-POCRPG/Pods-POCRPG.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = pocrpg/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = pocrpg/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = pocrpg/main.m; sourceTree = "<group>"; };
+		1C9945AC507F573416018BC2 /* Pods-pocrpg-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocrpg-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-pocrpg-tvOSTests/Pods-pocrpg-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* pocrpg-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pocrpg-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* pocrpg-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pocrpg-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D31FA7FFC385F96AB27AC7 /* Pods-pocrpg-pocrpgTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocrpg-pocrpgTests.release.xcconfig"; path = "Target Support Files/Pods-pocrpg-pocrpgTests/Pods-pocrpg-pocrpgTests.release.xcconfig"; sourceTree = "<group>"; };
+		73FD2416A7452367F89B7AEC /* Pods-pocrpg-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocrpg-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-pocrpg-tvOSTests/Pods-pocrpg-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		784C834B58F359B701CEC1C2 /* Pods-pocrpg-pocrpgTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocrpg-pocrpgTests.debug.xcconfig"; path = "Target Support Files/Pods-pocrpg-pocrpgTests/Pods-pocrpg-pocrpgTests.debug.xcconfig"; sourceTree = "<group>"; };
+		810D6AB86E4766ADD18497A9 /* libPods-pocrpg-pocrpgTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pocrpg-pocrpgTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7333A35B60B2E8EF52D9FB5 /* libPods-pocrpg-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pocrpg-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBF22F6B50E7BCE30E2FC68 /* libPods-pocrpg-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pocrpg-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7F82C09DBB7C0CF68063E4 /* libPods-pocrpg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pocrpg.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18B44CA8C8CFE2E53EEDAEF /* Pods-pocrpg-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocrpg-tvOS.release.xcconfig"; path = "Target Support Files/Pods-pocrpg-tvOS/Pods-pocrpg-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		D29A0A4A388F20ED57F2A729 /* Pods-pocrpg-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocrpg-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-pocrpg-tvOS/Pods-pocrpg-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E06E87D49ECF8746B4438AAB /* Pods-pocrpg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocrpg.debug.xcconfig"; path = "Target Support Files/Pods-pocrpg/Pods-pocrpg.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				686EA211B76E57E6DB6CB288 /* libPods-POCRPG-POCRPGTests.a in Frameworks */,
+				686EA211B76E57E6DB6CB288 /* libPods-pocrpg-pocrpgTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492E78EEBB33D975DA57C57F /* libPods-POCRPG.a in Frameworks */,
+				492E78EEBB33D975DA57C57F /* libPods-pocrpg.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3E29E065B101E2D7B92545E /* libPods-POCRPG-tvOS.a in Frameworks */,
+				E3E29E065B101E2D7B92545E /* libPods-pocrpg-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81C02FDA7FB582480DB39527 /* libPods-POCRPG-tvOSTests.a in Frameworks */,
+				81C02FDA7FB582480DB39527 /* libPods-pocrpg-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* POCRPGTests */ = {
+		00E356EF1AD99517003FC87E /* pocrpgTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* POCRPGTests.m */,
+				00E356F21AD99517003FC87E /* pocrpgTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = POCRPGTests;
+			path = pocrpgTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* POCRPG */ = {
+		13B07FAE1A68108700A75B9A /* pocrpg */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = POCRPG;
+			name = pocrpg;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				BB7F82C09DBB7C0CF68063E4 /* libPods-POCRPG.a */,
-				810D6AB86E4766ADD18497A9 /* libPods-POCRPG-POCRPGTests.a */,
-				AEBF22F6B50E7BCE30E2FC68 /* libPods-POCRPG-tvOS.a */,
-				A7333A35B60B2E8EF52D9FB5 /* libPods-POCRPG-tvOSTests.a */,
+				BB7F82C09DBB7C0CF68063E4 /* libPods-pocrpg.a */,
+				810D6AB86E4766ADD18497A9 /* libPods-pocrpg-pocrpgTests.a */,
+				AEBF22F6B50E7BCE30E2FC68 /* libPods-pocrpg-tvOS.a */,
+				A7333A35B60B2E8EF52D9FB5 /* libPods-pocrpg-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* POCRPG */,
+				13B07FAE1A68108700A75B9A /* pocrpg */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* POCRPGTests */,
+				00E356EF1AD99517003FC87E /* pocrpgTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E4BE8206396BC522892620C5 /* Pods */,
@@ -174,10 +174,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* POCRPG.app */,
-				00E356EE1AD99517003FC87E /* POCRPGTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* POCRPG-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* POCRPG-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* pocrpg.app */,
+				00E356EE1AD99517003FC87E /* pocrpgTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* pocrpg-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* pocrpg-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,14 +185,14 @@
 		E4BE8206396BC522892620C5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E06E87D49ECF8746B4438AAB /* Pods-POCRPG.debug.xcconfig */,
-				09067172A32C76CAF61C61EF /* Pods-POCRPG.release.xcconfig */,
-				784C834B58F359B701CEC1C2 /* Pods-POCRPG-POCRPGTests.debug.xcconfig */,
-				65D31FA7FFC385F96AB27AC7 /* Pods-POCRPG-POCRPGTests.release.xcconfig */,
-				D29A0A4A388F20ED57F2A729 /* Pods-POCRPG-tvOS.debug.xcconfig */,
-				C18B44CA8C8CFE2E53EEDAEF /* Pods-POCRPG-tvOS.release.xcconfig */,
-				73FD2416A7452367F89B7AEC /* Pods-POCRPG-tvOSTests.debug.xcconfig */,
-				1C9945AC507F573416018BC2 /* Pods-POCRPG-tvOSTests.release.xcconfig */,
+				E06E87D49ECF8746B4438AAB /* Pods-pocrpg.debug.xcconfig */,
+				09067172A32C76CAF61C61EF /* Pods-pocrpg.release.xcconfig */,
+				784C834B58F359B701CEC1C2 /* Pods-pocrpg-pocrpgTests.debug.xcconfig */,
+				65D31FA7FFC385F96AB27AC7 /* Pods-pocrpg-pocrpgTests.release.xcconfig */,
+				D29A0A4A388F20ED57F2A729 /* Pods-pocrpg-tvOS.debug.xcconfig */,
+				C18B44CA8C8CFE2E53EEDAEF /* Pods-pocrpg-tvOS.release.xcconfig */,
+				73FD2416A7452367F89B7AEC /* Pods-pocrpg-tvOSTests.debug.xcconfig */,
+				1C9945AC507F573416018BC2 /* Pods-pocrpg-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* POCRPGTests */ = {
+		00E356ED1AD99517003FC87E /* pocrpgTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "POCRPGTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "pocrpgTests" */;
 			buildPhases = (
 				85699D1EB0A680520F0C8173 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -215,14 +215,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = POCRPGTests;
-			productName = POCRPGTests;
-			productReference = 00E356EE1AD99517003FC87E /* POCRPGTests.xctest */;
+			name = pocrpgTests;
+			productName = pocrpgTests;
+			productReference = 00E356EE1AD99517003FC87E /* pocrpgTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* POCRPG */ = {
+		13B07F861A680F5B00A75B9A /* pocrpg */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "POCRPG" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "pocrpg" */;
 			buildPhases = (
 				F4C05029E453B7AD98CACD65 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -235,14 +235,14 @@
 			);
 			dependencies = (
 			);
-			name = POCRPG;
-			productName = POCRPG;
-			productReference = 13B07F961A680F5B00A75B9A /* POCRPG.app */;
+			name = pocrpg;
+			productName = pocrpg;
+			productReference = 13B07F961A680F5B00A75B9A /* pocrpg.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* POCRPG-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* pocrpg-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "POCRPG-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "pocrpg-tvOS" */;
 			buildPhases = (
 				EB259FACB91BB4D0DADFCBFE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -255,14 +255,14 @@
 			);
 			dependencies = (
 			);
-			name = "POCRPG-tvOS";
-			productName = "POCRPG-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* POCRPG-tvOS.app */;
+			name = "pocrpg-tvOS";
+			productName = "pocrpg-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* pocrpg-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* POCRPG-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* pocrpg-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "POCRPG-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "pocrpg-tvOSTests" */;
 			buildPhases = (
 				756974A820F4DF7C27F95AA7 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -274,9 +274,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "POCRPG-tvOSTests";
-			productName = "POCRPG-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* POCRPG-tvOSTests.xctest */;
+			name = "pocrpg-tvOSTests";
+			productName = "pocrpg-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* pocrpg-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -305,7 +305,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "POCRPG" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "pocrpg" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -318,10 +318,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* POCRPG */,
-				00E356ED1AD99517003FC87E /* POCRPGTests */,
-				2D02E47A1E0B4A5D006451C7 /* POCRPG-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* POCRPG-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* pocrpg */,
+				00E356ED1AD99517003FC87E /* pocrpgTests */,
+				2D02E47A1E0B4A5D006451C7 /* pocrpg-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* pocrpg-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -404,7 +404,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-POCRPG-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-pocrpg-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -426,7 +426,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-POCRPG-POCRPGTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-pocrpg-pocrpgTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -448,7 +448,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-POCRPG-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-pocrpg-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -470,7 +470,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-POCRPG-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-pocrpg-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -522,7 +522,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* POCRPGTests.m in Sources */,
+				00E356F31AD99517003FC87E /* pocrpgTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,7 +548,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* POCRPGTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* pocrpgTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,12 +557,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* POCRPG */;
+			target = 13B07F861A680F5B00A75B9A /* pocrpg */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* POCRPG-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* pocrpg-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -574,7 +574,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = POCRPG;
+			path = pocrpg;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -582,14 +582,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 784C834B58F359B701CEC1C2 /* Pods-POCRPG-POCRPGTests.debug.xcconfig */;
+			baseConfigurationReference = 784C834B58F359B701CEC1C2 /* Pods-pocrpg-pocrpgTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = POCRPGTests/Info.plist;
+				INFOPLIST_FILE = pocrpgTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -599,17 +599,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POCRPG.app/POCRPG";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pocrpg.app/pocrpg";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65D31FA7FFC385F96AB27AC7 /* Pods-POCRPG-POCRPGTests.release.xcconfig */;
+			baseConfigurationReference = 65D31FA7FFC385F96AB27AC7 /* Pods-pocrpg-pocrpgTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = POCRPGTests/Info.plist;
+				INFOPLIST_FILE = pocrpgTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -619,13 +619,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POCRPG.app/POCRPG";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pocrpg.app/pocrpg";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E06E87D49ECF8746B4438AAB /* Pods-POCRPG.debug.xcconfig */;
+			baseConfigurationReference = E06E87D49ECF8746B4438AAB /* Pods-pocrpg.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -635,7 +635,7 @@
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = POCRPG/Info.plist;
+				INFOPLIST_FILE = pocrpg/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -643,7 +643,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = POCRPG;
+				PRODUCT_NAME = pocrpg;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -652,12 +652,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09067172A32C76CAF61C61EF /* Pods-POCRPG.release.xcconfig */;
+			baseConfigurationReference = 09067172A32C76CAF61C61EF /* Pods-pocrpg.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = POCRPG/Info.plist;
+				INFOPLIST_FILE = pocrpg/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,7 +665,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = POCRPG;
+				PRODUCT_NAME = pocrpg;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -673,7 +673,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D29A0A4A388F20ED57F2A729 /* Pods-POCRPG-tvOS.debug.xcconfig */;
+			baseConfigurationReference = D29A0A4A388F20ED57F2A729 /* Pods-pocrpg-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -684,14 +684,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "POCRPG-tvOS/Info.plist";
+				INFOPLIST_FILE = "pocrpg-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.POCRPG-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.pocrpg-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -701,7 +701,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C18B44CA8C8CFE2E53EEDAEF /* Pods-POCRPG-tvOS.release.xcconfig */;
+			baseConfigurationReference = C18B44CA8C8CFE2E53EEDAEF /* Pods-pocrpg-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -712,14 +712,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "POCRPG-tvOS/Info.plist";
+				INFOPLIST_FILE = "pocrpg-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.POCRPG-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.pocrpg-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -729,7 +729,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73FD2416A7452367F89B7AEC /* Pods-POCRPG-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 73FD2416A7452367F89B7AEC /* Pods-pocrpg-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -739,24 +739,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "POCRPG-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "pocrpg-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.POCRPG-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.pocrpg-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POCRPG-tvOS.app/POCRPG-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pocrpg-tvOS.app/pocrpg-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C9945AC507F573416018BC2 /* Pods-POCRPG-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 1C9945AC507F573416018BC2 /* Pods-pocrpg-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -766,17 +766,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "POCRPG-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "pocrpg-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.POCRPG-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.pocrpg-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POCRPG-tvOS.app/POCRPG-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pocrpg-tvOS.app/pocrpg-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -897,7 +897,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "POCRPGTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "pocrpgTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -906,7 +906,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "POCRPG" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "pocrpg" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -915,7 +915,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "POCRPG-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "pocrpg-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -924,7 +924,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "POCRPG-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "pocrpg-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -933,7 +933,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "POCRPG" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "pocrpg" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

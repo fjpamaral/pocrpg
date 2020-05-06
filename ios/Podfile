@@ -44,8 +44,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'POCRPG' do
-  # Pods for POCRPG
+target 'pocrpg' do
+  # Pods for pocrpg
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -77,7 +77,7 @@ target 'POCRPG' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'POCRPGTests' do
+  target 'pocrpgTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -94,10 +94,10 @@ target 'POCRPG' do
   end
 end
 
-target 'POCRPG-tvOS' do
-  # Pods for POCRPG-tvOS
+target 'pocrpg-tvOS' do
+  # Pods for pocrpg-tvOS
 
-  target 'POCRPG-tvOSTests' do
+  target 'pocrpg-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
