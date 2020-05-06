@@ -5,10 +5,11 @@ module.exports = {
   coverageDirectory: './coverage',
   coverageReporters: ['lcov'],
   collectCoverageFrom: [
-    'src/**/*.js',
-    'app/**/**/*.js',
-    '!app/**/**/*.spec.js',
-    '!src/**/**/*.test.js',
+    '**/*.{js,jsx}',
+    '!**/android/**',
+    '!**/coverage/**',
+    '!**/ios/**',
+    '!**/node_modules/**',
   ],
   coverageThreshold: {
     global: {
@@ -17,7 +18,7 @@ module.exports = {
   },
   moduleDirectories: ['node_modules'],
   testEnvironment: 'node',
-  testMatch: ['**/?(*.)+(spec|test).[jt]s?(x)'],
+  testMatch: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
   verbose: false,
   automock: false,
 };
