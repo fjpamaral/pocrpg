@@ -10,6 +10,17 @@
     "test:coverage": "jest --coverage",
     "lint": "eslint ./"
   },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged",
+      "pre-push": "validate-branch-name"
+    }
+  },
+  "validate-branch-name": {
+    "pattern": "^(master){1}$|^((PRPG)-[0-9]+$)",
+    "errorMsg": "Check the correctly name branch prefix with jira number. Ex: PRPG-123"
+  },
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "16.11.0",
@@ -19,6 +30,8 @@
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/runtime": "^7.9.6",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-angular": "^8.3.4",
     "@react-native-community/eslint-config": "^1.1.0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^25.5.1",
@@ -38,6 +51,7 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^4.0.0",
     "eslint-plugin-react-native": "^3.8.1",
+    "husky": "^4.2.5",
     "jest": "^25.5.2",
     "jest-expect-message": "^1.0.2",
     "jest-fetch-mock": "^3.0.3",
@@ -46,7 +60,8 @@
     "prettier": "^2.0.5",
     "react-native-testing-library": "^1.13.2",
     "react-test-renderer": "^16.13.1",
-    "reactotron-react-native": "^5.0.0"
+    "reactotron-react-native": "^5.0.0",
+    "validate-branch-name": "^1.0.6"
   },
   "jest": {
     "preset": "react-native"
